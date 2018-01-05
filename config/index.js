@@ -27,7 +27,16 @@ module.exports = {
                 // pathRewrite: {
                 //     '^/v4/api': '/v4/api'
                 //   }
+            },
+            '/igoeasy': {
+                target: 'http://apis.yhiker.com',
+                host: 'apis.yhiker.com',
+                changeOrigin: true,
+                // pathRewrite: {
+                //     '^/v4/api': '/v4/api'
+                //   }
             }
+
         },
 
         // Various Dev Server settings
