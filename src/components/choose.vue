@@ -2,7 +2,7 @@
 	<div>
 		
 		<img src="../assets/choose.png"/>
-		<p class="p1" @click = "handleClick()">台湾</p>
+		<p class="p1" @click = "handleClickLeft()">台湾</p>
     <p class="p2">韩国</p>
     <p class="p3">日本</p>
     <p class="p4">国内</p>
@@ -22,7 +22,7 @@ export default {
   },
 
   methods:{
-    handleClick(){
+    handleClickLeft(){
       //js 实现路由跳转 ---> 编程式导航
       //
       //router.push(`/detail/${index}`); // /detail/

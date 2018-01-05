@@ -3,9 +3,10 @@
      
 
      <swipe class="my-swipe"  >
-      <swipe-item v-for="(data,id) in detailinfo" :key="data.id">
+      <swipe-item v-for="(data,index) in detailinfo" :key="data.id">
          <img :src="'http://image.buoumall.com/' +data.picture">
          <p>{{data.detail}}</p>
+      
       </swipe-item>
       
     </swipe>

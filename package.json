@@ -12,6 +12,7 @@
   "dependencies": {
     "element-ui": "^2.0.10",
     "mint-ui": "^2.2.13",
+    "node-sass": "^4.7.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vue-swipe": "^2.3.0"
